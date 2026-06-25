@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6a6fbb9c-0dd3-4d8d-a6ae-dd7d48c57cb1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>binary_heap.py</StartupFile>
+    <StartupFile>graph.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="binary_heap.py" />
+    <Compile Include="graph.py" />
     <Compile Include="sorting.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
